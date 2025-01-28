@@ -9,7 +9,7 @@ The algorithm incorporates principles of vector math, geometry, and linear algeb
 To sample a random position, the algorithm first identifies triangles within the mesh that intersect the sphere. 
 It then selects a triangle based on the probability proportional to its area. To calculate each triangle's area, the **cross product** is used:
 
-$\text{Area} = \frac{1}{2} \|\vec{v}_2 - \vec{v}_1 \times \vec{v}_3 - \vec{v}_1\|$
+$\text{Area} = \frac{1}{2} \|(\vec{v}_2 - \vec{v}_1) \times (\vec{v}_3 - \vec{v}_1\)|$
 
 Here, $\vec{v}_1$, $\vec{v}_2$, and $\vec{v}_3$ are the vertices of the triangle. 
 The cross product yields a vector orthogonal to the plane of the triangle, whose magnitude (by definition) corresponds to twice the triangle's area.
