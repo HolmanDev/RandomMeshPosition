@@ -1,7 +1,7 @@
 # Random mesh position within a sphere
 <img src="https://github.com/user-attachments/assets/85f625c6-4c93-422f-9985-c4b821ef8fc4" width="300px"/>
 
-Select a uniformly random position on a mesh within a radius from a point.
+Select a uniformly random position on a mesh within a radius from a point. All surface points can be selected, not just the vertices.
 
 Written for the game engine Unity in C#, but the concepts are easily transferred to other fields.
 
